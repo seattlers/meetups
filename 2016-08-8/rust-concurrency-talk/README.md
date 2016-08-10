@@ -3,7 +3,7 @@
 by: Chris Griffing
 
 Slides available via my personal repo:
-(https://cmgriffing.github.io/rust-concurrency-talk/)[https://cmgriffing.github.io/rust-concurrency-talk]
+[https://cmgriffing.github.io/rust-concurrency-talk/](https://cmgriffing.github.io/rust-concurrency-talk)
 
 I ended up benchmarking things:
 
