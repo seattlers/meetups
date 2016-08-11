@@ -17,3 +17,9 @@ I ended up benchmarking things:
 
 Looking at these benchmarks, it appears I did something terribly wrong in my mioco code.
 Also keep in mind that the promises benchmark is using sleep like the rest of them, but it is on top of a single threaded event loop which causes the function to run in a similar amount of time to the raw operation benchmark.
+
+## Compiling
+
+See: https://github.com/pnkfelix/tango for a description of how to compile the md into rs and vice versa.
+
+To compile the html from the markdown use this command: `pandoc -s -t revealjs src/*.md -o html/index.html --slide-level=2`
